@@ -2,12 +2,13 @@
     --white: #ffffff;
     --gray: #d9d9d9;
     --black: #000000;
-    --primary-color: #02073e;
-    --secondary-color: #0f2137;
+    --primary-color: #15151f;
+    --secondary-color: #101d2e;
     --dark-secondary-color: #3c415c;
-    --tertiary-color: #a6b1e1;
+    --tertiary-color: #bdbdbd;
     --light-tertiary-color: #f3f6fb;
+    --dark-tertiary-color: #a70000;
     --text-color: #343d48;
   
-    --font-family: 'DM Sans', sans-serif;
+    --font-family: 'Poppins', sans-serif;
   }
