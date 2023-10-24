@@ -1,21 +1,21 @@
 .about{
     display: flex;
     justify-content: space-between;
-    gap: 4rem;
-    scroll-margin-top: 10rem;
+    gap: 64px;
+    scroll-margin-top: 160px;
 }
 
 .about .about__left{
-    max-width: 40rem;
+    max-width: 640rem;
     flex: 1;
 }
 
 .about .about__left p{
-    margin: 1rem 0 2rem;
+    margin: 16px 0 32px;
 }
 
 .about .about__left ul{
-    margin-left: -1.2rem;
+    margin-left: -19px;
 }
 
 .about .about__left ul li{
@@ -24,10 +24,30 @@
 
 .about .about__left ul li a{
     display: inline-block;
-    padding: 1rem;
+    padding: 16px;
 }
 
 .about .about__higth{
     flex: 1;
-    max-width: 66rem;
+    max-width: 1056px;
+}
+
+@media only screen and (max-width: 728px){  
+    .about{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .about .about__left{
+        max-width: 1056px;
+        text-align: center;
+    }
+
+    .about .about__left ul{
+        margin-left: 0;
+    }
+
+    .about .about__higth{
+        text-align: center;
+    }
 }

@@ -1,12 +1,12 @@
 footer .footer__content{
     text-align: center;
-    padding: 6rem 1rem 1rem;
-    max-width: 50rem;
+    padding: 96px 16px 16px;
+    max-width: 800px;
 }
 
 footer .footer__content ul li{
     display: inline-block;
-    padding: 1rem 4rem;
+    padding: 16px 64px;
 }
 
 footer .footer__content .footer__contact span{
@@ -16,7 +16,7 @@ footer .footer__content .footer__contact span{
 
 footer .footer__content ul a{
     display: inline-block;
-    padding: 1rem;
+    padding: 16px;
 }
 
 footer .footer__content .footer__contact span{
@@ -24,5 +24,5 @@ footer .footer__content .footer__contact span{
 }
 
 footer .footer__content .footer__copyright{
-    font-size: 1.4rem;
+    font-size: 22px;
 }
