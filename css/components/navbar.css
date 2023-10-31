@@ -12,11 +12,7 @@
 }
 
 .navbar .navbar__content{
-<<<<<<< HEAD
     padding: 24px 48px 18px;
-=======
-    padding: 24px 48px 16px;
->>>>>>> 44b8d026fe13535883ab9df9fb86a686f20b68d1
     display: flex;
     justify-content: space-between;
 }
@@ -30,11 +26,7 @@
 }
 
 .navbar .navbar__content .navbar__links a{
-<<<<<<< HEAD
     padding: 16px;
-=======
-    padding: 14px;
->>>>>>> 44b8d026fe13535883ab9df9fb86a686f20b68d1
     display: inline-block;
     color: var(--white);
 }

@@ -1,13 +1,8 @@
 .about{
     display: flex;
     justify-content: space-between;
-<<<<<<< HEAD
     gap: 56px;
     scroll-margin-top: 128px;
-=======
-    gap: 64px;
-    scroll-margin-top: 160px;
->>>>>>> 44b8d026fe13535883ab9df9fb86a686f20b68d1
 }
 
 .about .about__left{
@@ -29,11 +24,7 @@
 
 .about .about__left ul li a{
     display: inline-block;
-<<<<<<< HEAD
     padding: 14px;
-=======
-    padding: 16px;
->>>>>>> 44b8d026fe13535883ab9df9fb86a686f20b68d1
 }
 
 .about .about__higth{
@@ -41,7 +32,6 @@
     max-width: 1056px;
 }
 
-<<<<<<< HEAD
 .about .about__higth ul li{
     display: inline-block;
     padding: 20px 15px;
@@ -51,8 +41,6 @@
     width: 35px;
 }
 
-=======
->>>>>>> 44b8d026fe13535883ab9df9fb86a686f20b68d1
 @media only screen and (max-width: 728px){  
     .about{
         flex-direction: column-reverse;
