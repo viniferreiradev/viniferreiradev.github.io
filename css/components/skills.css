@@ -3,27 +3,47 @@
 }
 
 .skills .skill__contents{
+<<<<<<< HEAD
     padding: 0 60px;
+=======
+    padding: 96px 64px;
+>>>>>>> 44b8d026fe13535883ab9df9fb86a686f20b68d1
     text-align: center;
 }
 
 .skills .skill__contents .description{
     max-width: 800px;
+<<<<<<< HEAD
     margin: 24px auto 80px;
+=======
+    margin: 24px auto 96px;
+>>>>>>> 44b8d026fe13535883ab9df9fb86a686f20b68d1
 }
 
 .skills .skill__contents ul{
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
     gap: 24px;
+=======
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 32px;
+>>>>>>> 44b8d026fe13535883ab9df9fb86a686f20b68d1
 }
 
 .skills .skill__contents ul li .image-container{
     background-color: var(--white);
+<<<<<<< HEAD
     padding: 16px;
     border-radius: 50%;
     width: 100px;
     height: 100px;
+=======
+    padding: 32px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+>>>>>>> 44b8d026fe13535883ab9df9fb86a686f20b68d1
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +52,11 @@
 }
 
 .skills .skill__contents ul li h3{
+<<<<<<< HEAD
     font-size: 25px;
+=======
+    font-size: 40px;
+>>>>>>> 44b8d026fe13535883ab9df9fb86a686f20b68d1
     font-weight: 700;
     margin: 32px 0 16px;
     color: var(--dark-tertiary-color);

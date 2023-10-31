@@ -1,5 +1,9 @@
 .projects{
+<<<<<<< HEAD
     scroll-margin-top: 128px;
+=======
+    scroll-margin-top: 240px;
+>>>>>>> 44b8d026fe13535883ab9df9fb86a686f20b68d1
     margin-bottom: 256px;
 }
 
@@ -10,7 +14,11 @@
 .projects .projects__content{
     max-width: 800px;
     text-align: center;
+<<<<<<< HEAD
     margin: 0 auto 0;
+=======
+    margin: 0 auto 96px;
+>>>>>>> 44b8d026fe13535883ab9df9fb86a686f20b68d1
 }
 
 .projects ul li{
@@ -30,8 +38,13 @@
 
 .projects ul li .image img{
     width: 100%;
+<<<<<<< HEAD
     min-width: 440px;
     max-width: 600px;
+=======
+    min-width: 640px;
+    max-width: 800px;
+>>>>>>> 44b8d026fe13535883ab9df9fb86a686f20b68d1
     height: auto;
 }
 

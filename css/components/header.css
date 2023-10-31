@@ -13,14 +13,22 @@ header .header__left{
 
 header .header__left p{
     margin-top: 32px;
+<<<<<<< HEAD
     margin-bottom: 60px;
+=======
+    margin-bottom: 64px;
+>>>>>>> 44b8d026fe13535883ab9df9fb86a686f20b68d1
     max-width: 640px;   
 }
 
 header .header__hight .header__image{
     position: relative;
     line-height: 0;
+<<<<<<< HEAD
     top: 12px;
+=======
+    top: -16px;
+>>>>>>> 44b8d026fe13535883ab9df9fb86a686f20b68d1
 }
 
 header .header__hight .header__image::after{
@@ -38,7 +46,11 @@ header .header__hight .header__image::after{
 
 header .header__hight .header__image .Vinicius{
     border-radius: 16px;
+<<<<<<< HEAD
     min-width: 200px;
+=======
+    min-width: 300px;
+>>>>>>> 44b8d026fe13535883ab9df9fb86a686f20b68d1
     max-width: 100%;
 }
 
@@ -49,12 +61,16 @@ header .header__hight .header__image .background{
     z-index: -1;
 }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 728px){ 
     
     header .header__hight .header__image::after{
         display: none;
     }
 
+=======
+@media only screen and (max-width: 728px){  
+>>>>>>> 44b8d026fe13535883ab9df9fb86a686f20b68d1
     header{
         flex-direction: column-reverse;
         text-align: center;
@@ -65,7 +81,11 @@ header .header__hight .header__image .background{
     }
 
     header .about__higth .header__image .Vinicius{
+<<<<<<< HEAD
         border-radius: 10px;
+=======
+        border-radius: 80px;
+>>>>>>> 44b8d026fe13535883ab9df9fb86a686f20b68d1
     }
 
     header .header__hight .header__image{
@@ -74,8 +94,11 @@ header .header__hight .header__image .background{
         line-height: 0;
         min-width: 100px;
     }
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 44b8d026fe13535883ab9df9fb86a686f20b68d1
 }
