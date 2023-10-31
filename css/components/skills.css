@@ -1,40 +1,39 @@
 .skills{
-    scroll-margin-top: 8rem;
+    scroll-margin-top: 128px;
 }
 
 .skills .skill__contents{
-    padding: 6rem 4rem;
+    padding: 0 60px;
     text-align: center;
 }
 
 .skills .skill__contents .description{
-    max-width: 56rem;
-    margin: 1.5rem auto 6rem;
+    max-width: 800px;
+    margin: 24px auto 80px;
 }
 
 .skills .skill__contents ul{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    gap: 24px;
 }
 
 .skills .skill__contents ul li .image-container{
     background-color: var(--white);
-    padding: 2rem;
+    padding: 16px;
     border-radius: 50%;
-    width: 7.5rem;
-    height: 7.5rem;
+    width: 100px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 1rem 0.4rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 16px 8px 16px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
 }
 
 .skills .skill__contents ul li h3{
-    font-size: 2.5rem;
+    font-size: 25px;
     font-weight: 700;
-    margin: 2rem 0 1rem;
+    margin: 32px 0 16px;
     color: var(--dark-tertiary-color);
 }
-

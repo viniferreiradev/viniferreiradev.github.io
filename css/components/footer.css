@@ -1,12 +1,12 @@
 footer .footer__content{
     text-align: center;
-    padding: 6rem 1rem 1rem;
-    max-width: 50rem;
+    padding: 0 16px 16px;
+    max-width: 720px;
 }
 
 footer .footer__content ul li{
     display: inline-block;
-    padding: 1rem 4rem;
+    padding: 16px 20px;
 }
 
 footer .footer__content .footer__contact span{
@@ -16,13 +16,18 @@ footer .footer__content .footer__contact span{
 
 footer .footer__content ul a{
     display: inline-block;
-    padding: 1rem;
+    padding: 14px;
 }
 
 footer .footer__content .footer__contact span{
     color: var(--dark-tertiary-color);
 }
 
+footer .footer__content .footer__contact li img{
+    width: 40px;
+    padding: 0 15px 0 0;
+}
+
 footer .footer__content .footer__copyright{
-    font-size: 1.4rem;
+    font-size: 10px;
 }

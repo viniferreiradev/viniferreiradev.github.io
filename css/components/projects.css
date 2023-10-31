@@ -1,23 +1,23 @@
 .projects{
-    scroll-margin-top: 15rem;
-    margin-bottom: 16rem;
+    scroll-margin-top: 128px;
+    margin-bottom: 256px;
 }
 
 .projects .projects__content .paragraph-primary{
-    padding: 1rem;
+    padding: 16px;
 }
 
 .projects .projects__content{
-    max-width: 56rem;
+    max-width: 800px;
     text-align: center;
-    margin: 0 auto 6rem;
+    margin: 0 auto 0;
 }
 
 .projects ul li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 4rem;
+    gap: 64px;
 }
 
 .projects ul li.projects__reversed-list{
@@ -25,25 +25,36 @@
 }
 
 .projects ul li:not(:last-of-type){
-    margin-bottom: 12rem;
+    margin-bottom: 160px;
 }
 
 .projects ul li .image img{
     width: 100%;
-    min-width: 40rem;
-    max-width: 50rem;
+    min-width: 440px;
+    max-width: 600px;
     height: auto;
 }
 
 .projects ul li .projects__info{
-    max-width: 50rem;
+    max-width: 800px;
 }
 
 .projects ul li .projects__info p{
-    margin: 1rem 0 4rem;
+    margin: 16px 0 64px;
 }
 
 .projects ul li .projects__info a{
     font-weight: 500;
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 728px){
+    .projects .projects__content ul li{
+        flex-direction: column;
+    }
+
+    .projects .projects__content .image img{
+        min-width: auto;
+
+    }
 }

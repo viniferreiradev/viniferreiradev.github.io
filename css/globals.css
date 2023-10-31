@@ -4,17 +4,18 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: var(--font-family);
+    color: var(--white);
     
   }
   
   html {
     font-size: 62.5%;
-    background-color: var(--primary-color);
+    background-color: var(--black);
   }
   
   body {
-    font-size: 1.6rem;
-    margin-top: 10rem;
+    font-size: 16px;
+    margin-top: 120px;
   }
   
   ul {
@@ -27,65 +28,66 @@
   }
   
   h1 {
-    font-size: 8rem;
+    font-size: 65px;
     font-weight: 700;
-    color: var(--white);
   }
 
   h2 {
-    font-size: 6rem;
+    font-size: 40px;
     font-weight: 500;
     color: var(--dark-tertiary-color);
   }
   
   .secondary-title {
-    font-size: 4rem;
+    font-size: 35px;
     font-weight: 700;
-    color: var(--white);
   }
   
   .tertiary-title {
-    font-size: 2rem;
+    font-size: 25px;
     font-weight: 500;
-    line-height: 4.5rem;
-    color: var(--white);
+    line-height: 72px;
+  }
+
+  .minimum-title {
+    font-size: 25px;
+    font-weight: 500;
   }
   
   p,
   .p {
     font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 3.5rem;
-    color: var(--white);
+    font-size: 16px;
+    line-height: 32px;
   }
   
   p:not(:last-of-type),
   .p:not(:last-of-type) {
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
   }
   
   .btn {
     background-color: none;
     border: none;
     outline: none;
-    padding: 1rem 4rem;
+    padding: 16px 64px;
     display: inline-block;
-    border-radius: 0.5rem;
+    border-radius: 8px;
   }
   
   .btn.btn-primary {
     background-color: var(--dark-tertiary-color);
     color: var(--white);
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 18px;
   }
   
   .max-width {
     width: 100%;
-    max-width: 120rem;
-    padding: 0 4rem;
+    max-width: 1280px;
+    padding: 0 64px;
     margin: 0 auto;
-    margin-bottom: 26rem;
+    margin-bottom: 210px;
   }
   
   .mb-0 {
@@ -93,43 +95,59 @@
   }
   
   .mb-s {
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
   }
   
   .mb-m {
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
   }
   
   .mb-l {
-    margin-bottom: 4rem;
+    margin-bottom: 64px;
   }
   
   .mb-xl {
-    margin-bottom: 6rem;
+    margin-bottom: 96px;
   }
   
   @media only screen and (max-width: 1024px) {
     html {
-      font-size: 60%;
+      font-size: 70%;
     }
   
-    h1 {
-      font-size: 6rem;
-    }
   }
   
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 728px) {
     html {
       font-size: 58%;
     }
   
     .max-width {
-      padding: 0 2rem;
+      padding: 0 32px;
+    }
+
+      h1 {
+      font-size: 40px;
+    }
+
+      h2 {
+      font-size: 28px;
+    }
+
+    .secondary-title {
+      font-size: 28px;
+      font-weight: 700;
+    }
+    
+    .tertiary-title {
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 72px;
     }
   }
   
   @media only screen and (max-width: 425px) {
     h1 {
-      font-size: 4.2rem;
+      font-size: 40px;
     }
   }
